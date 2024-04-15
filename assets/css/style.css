@@ -1,11 +1,11 @@
 body {
-  background-color: #f8f8f8; /* Light gray background for the entire page */
+  background-color: #1f1f1f; /* Dark background for the entire page */
   font-family: Arial, sans-serif; /* Fallback font */
+  color: #ccc; /* Light gray text */
 }
 
 .header {
-  background-color: #2c3e50; /* Dark blue-gray background for header */
-  color: #ffffff; /* White text */
+  background-color: #333; /* Dark gray background for header */
 }
 
 .navbar-brand {
@@ -20,12 +20,12 @@ body {
 }
 
 .aside {
-  background-color: #ecf0f1; /* Light grayish background */
+  background-color: #292929; /* Dark background for aside */
   padding: 20px;
 }
 
 .search-heading {
-  color: #2c3e50; /* Dark blue-gray text */
+  color: #fff; /* White text */
   margin-bottom: 10px;
 }
 
@@ -33,49 +33,52 @@ body {
   width: calc(100% - 60px); /* Adjusted width */
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #cccccc; /* Light gray border */
+  border: 1px solid #666; /* Medium gray border */
   border-radius: 5px;
+  background-color: #2c2c2c; /* Dark gray background for input */
+  color: #ccc; /* Light gray text */
 }
 
 #weatherSubmit {
   padding: 10px 20px;
-  background-color: #3498db; /* Light blue button */
-  color: #ffffff; /* White text */
+  background-color: #333; /* Dark gray button */
+  color: #fff; /* White text */
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 #weatherSubmit:hover {
-  background-color: #2980b9; /* Darker shade of light blue on hover */
+  background-color: #444; /* Slightly lighter shade of dark gray on hover */
 }
 
 .currentWeather {
-  background-color: #ecf0f1; /* Light grayish background */
+  background-color: #292929; /* Dark background for current weather section */
   padding: 20px;
   margin-left: 20px; /* Adjusted margin */
   border-radius: 5px;
 }
 
 #city-name {
-  color: #2c3e50; /* Dark blue-gray text */
+  color: #fff; /* White text */
   margin-bottom: 10px;
 }
 
 .forecast-container {
-  background-color: #34495e; /* Dark blue-gray background */
+  background-color: #222; /* Darker background for forecast section */
   padding: 20px;
   margin-left: 20px; /* Adjusted margin */
   border-radius: 5px;
-  color: #ffffff; /* White text */
+  color: #ccc; /* Light gray text */
 }
 
 .footer {
-  background-color: #2c3e50; /* Dark blue-gray background */
-  color: #ffffff; /* White text */
+  background-color: #333; /* Dark gray background for footer */
+  color: #ccc; /* Light gray text */
   text-align: center;
   padding: 20px;
 }
+
 
 
 
